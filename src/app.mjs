@@ -5,7 +5,7 @@ export const state = config => ({
     name: '@grundstein',
     url: `https://${config.URL}`,
     about: 'the wise build their house on a rock. hosting without hassle.',
-    image: `https://${config.URL}${config.WEB_ROOT}grundstein-preview.png`,
+    image: `https://${config.URL}${config.WEB_ROOT}grundstein-preview.jpg`,
     author: {
       '@type': 'person',
       name: 'Jascha Ehrenreich',
