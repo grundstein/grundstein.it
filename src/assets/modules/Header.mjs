@@ -7,7 +7,7 @@ export const View = (props = {}) => {
     { class: 'Header' },
     div([
       Link({ to: state.root, class: 'Logo' }, [
-        Boot(),
+        Pyramid(),
         div({ class: 'branding' }, [span('@web'), 'boot']),
       ]),
       menu && Menu({ state, items: menu }),
@@ -16,7 +16,7 @@ export const View = (props = {}) => {
 }
 
 export const style = vars => ({
-  '.Boot': {
+  '.Pyramid': {
     backgroundColor: vars.text.dark,
     borderRadius: '100%',
     display: 'inline-block',

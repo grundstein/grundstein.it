@@ -1,5 +1,5 @@
 export const View = () =>
-  div({ class: 'Booting' }, [Boot(), h1([span('@grund'), 'stein']), p('hosting without hassle')])
+  div({ class: 'Booting' }, [Pyramid(), h1([span('@grund'), 'stein']), p('hosting without hassle')])
 
 export const style = vars => ({
   margin: '0 auto',
@@ -13,7 +13,7 @@ export const style = vars => ({
     top: '2.5em',
   },
 
-  '.Boot': {
+  '.Pyramid': {
     svg: {
       width: '15em',
       height: '12em',
@@ -22,7 +22,7 @@ export const style = vars => ({
   },
 
   h1: {
-    color: vars.neutral,
+    color: vars.text.dark,
     fontSize: '2em',
     padding: '0',
     position: 'absolute',

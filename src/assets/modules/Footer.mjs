@@ -18,9 +18,7 @@ export const View = state => [
         ]),
         div({ class: 'Child' }, [
           h2('social links'),
-          ul([
-            li(Link({ to: 'https://github.com/grundstein' }, 'github')),
-          ]),
+          ul([li(Link({ to: 'https://github.com/grundstein' }, 'github'))]),
         ]),
       ]),
 
