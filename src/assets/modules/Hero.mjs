@@ -7,7 +7,6 @@ export const View = state =>
       items: [
         { to: '/#about', text: 'about' },
         { to: '/getting-started/', text: 'getting started' },
-        { to: '/#support', text: 'support' },
       ],
       state,
     }),
