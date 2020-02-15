@@ -6,12 +6,9 @@ export const View = state =>
   div([
     h2('getting started'),
 
-    p([
-      'we are still working on the tools described below,',
-      ' our semi-public alpha starts on 22. 4. 2020.',
-    ]),
+    p('WIP - NOT IN PRODUCTION YET!'),
 
-    h3(['cli', i(' - release: 22. 4. 2020')]),
+    h3('cli'),
 
     p('first, install grundstein.'),
     Pre('npm install -g grundstein'),
