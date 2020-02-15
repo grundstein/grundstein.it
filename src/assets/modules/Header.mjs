@@ -22,7 +22,7 @@ export const style = vars => ({
     display: 'inline-block',
     float: 'left',
     height: '2.4em',
-    padding: '.3em .3em 0 .5em',
+    padding: '.3em',
     transition: `background-color ${vars.fadeDuration}`,
 
     '.light &&': {
