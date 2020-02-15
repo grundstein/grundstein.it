@@ -14,7 +14,5 @@ export const state = config => ({
       url: 'https://jaeh.at',
     },
   },
-  menu: [
-    { to: '/', text: 'about' },
-  ],
+  menu: [{ to: '/', text: 'about' }],
 })
