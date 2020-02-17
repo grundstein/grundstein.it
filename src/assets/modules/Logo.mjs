@@ -5,7 +5,7 @@ export const View = state => {
 
   return Link({ to: state.root, class: 'Logo' }, [
     svg({ viewBox: '0 0 500 500' }, [
-      ellipse({ fill: '#ffc107', cy: '153', cx: '250', rx: '150', ry: '153' }),
+      ellipse({ fill: '#f09d09', cy: '153', cx: '250', rx: '150', ry: '153' }),
       path({
         fill: '#212121',
         d:
@@ -22,8 +22,8 @@ export const View = state => {
         d:
           'M130 250l-20 40h90v-40h-70zm80 0v40h80v-40h-80zm90 0v40h90l-20-40h-70zm-195 50l-20 40h70v-40h-50zm60 0v40h80v-40h-80zm90 0v40h80v-40h-80zm90 0v40h70l-20-40h-50zM80 350l-20 40h50v-40H80zm40 0v40h80v-40h-80zm90 0v40h80v-40h-80zm90 0v40h80v-40h-80zm90 0v40h50l-20-40h-30zM55 400l-20 40h30v-40H55zm20 0v40h80v-40H75zm90 0v40h80v-40h-80zm90 0v40h80v-40h-80zm90 0v40h80v-40h-80zm90 0v40h30l-20-40h-10zM30 450l-20 40h90v-40H30zm80 0v40h80v-40h-80zm200 0v40h80v-40h-80zm90 0v40h90l-20-40h-70z',
       }),
-      circle({ fill: '#ffc107', cy: '141', cx: '247', r: '8' }),
-      path({ fill: '#ffc107', d: 'M200 450h100v40H200z' }),
+      circle({ fill: '#f09d09', cy: '141', cx: '247', r: '8' }),
+      path({ fill: '#f09d09', d: 'M200 450h100v40H200z' }),
     ]),
   ])
 }
