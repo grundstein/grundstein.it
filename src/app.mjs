@@ -1,4 +1,4 @@
-export const state = config => ({
+export const state = {
   title: '@grundstein',
 
   branding: ['@grund', 'stein'],
@@ -6,9 +6,9 @@ export const state = config => ({
 
   seo: {
     name: '@grundstein',
-    url: `https://${config.URL}`,
+    url: `https://grundstein.it/`,
     about: 'the wise build their house on a rock. hosting without hassle.',
-    image: `https://${config.URL}${config.WEB_ROOT}grundstein-preview.jpg`,
+    image: `https://grundstein.it/grundstein-preview.jpg`,
     author: {
       '@type': 'person',
       name: 'Jascha Ehrenreich',
@@ -19,35 +19,4 @@ export const state = config => ({
   },
 
   menu: [{ to: '/', text: 'about' }],
-
-  hero: {
-    title: ['@grund', 'stein'],
-    description: 'devops without hassle',
-    content: 'the wise build their house on a rock.',
-
-    menu: [
-      { to: '/#about', text: 'about' },
-      { to: '/getting-started/', text: 'getting started' },
-    ],
-  },
-
-  footer: {
-    one: {
-      title: '@grundstein',
-      before: ['hosting without hassle.', 'created by', 'Wizards & Witches @ Work'],
-      menu: [{ to: '/privacy/', text: 'privacy notice' }],
-    },
-    two: {
-      title: 'our projects',
-      menu: [
-        { to: 'https://webboot.org', text: 'webboot' },
-        { to: 'https://twitter.com/webbootorg', text: 'magic' },
-        { to: 'https://keybase.io/webboot', text: 'grundstein' },
-      ],
-    },
-    three: {
-      title: 'social links',
-      menu: [{ to: 'https://github.com/grundstein', text: 'github' }],
-    },
-  },
-})
+}
