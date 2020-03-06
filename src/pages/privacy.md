@@ -2,8 +2,10 @@
 @state {
   "title": "@grundstein - privacy policy"
 }
+---
 
 <div>
+
 ## privacy policy
 
 @grundstein does not call home.
@@ -12,7 +14,7 @@ we will never, under no circumstances,
 transmit information from your servers to
 **any** third parties.
 
-we will never transmit data from your servers to ours without asking.
+we will never transmit data from your servers to ours.
 
 ### canary:
 
