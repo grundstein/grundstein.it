@@ -11,7 +11,7 @@ export default {
   URL: 'grundstein.it',
   CNAME: 'grundstein.it',
 
-  HOIST: ['LightSwitch', 'Gdpr'],
+  HOIST: ['LightSwitch', 'NoSpy'],
 
   IGNORED_STATIC: ['.xcf'],
 }
