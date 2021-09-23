@@ -8,12 +8,7 @@
 
 <div id="about">
 
-## early bird <3
-
-hello, you are here a bit early.
-feel free to poke around,
-but as long as this notice is here,
-most documentation on this page will not be accurate (yet).
+<EarlyBird></EarlyBird>
 
 # grundstein?
 
